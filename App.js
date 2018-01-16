@@ -3,12 +3,15 @@ import { Provider } from 'react-redux';
 import { StyleSheet, Text, View } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 
-import store from "./store";
+import configureStore from "./store";
 import MainScreen from './screens/MainScreen'
 
+const store = configureStore();
+
 export default class App extends React.Component {
-  
+
   render() {
+
     const MainNavigator = StackNavigator( {
       Main: { screen: MainScreen}
     });
