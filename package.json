@@ -21,12 +21,13 @@
   },
   "dependencies": {
     "expo": "^23.0.4",
+    "lodash": "4.17.4",
     "react": "16.0.0",
-    "react-navigation": "1.0.0-beta.26",
     "react-native": "0.50.3",
-    "redux": "3.7.2",
+    "react-native-button": "^2.2.0",
+    "react-navigation": "1.0.0-beta.26",
     "react-redux": "5.0.6",
-    "redux-thunk": "2.2.0",
-    "lodash": "4.17.4"
+    "redux": "3.7.2",
+    "redux-thunk": "2.2.0"
   }
 }
